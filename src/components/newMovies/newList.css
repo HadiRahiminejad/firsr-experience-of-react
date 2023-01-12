@@ -1,0 +1,43 @@
+.new-movies-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    
+}
+.movies-list-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.movies-list-header:hover, .movies-list-header span:hover {
+   
+ transition: all 0.1s ease;
+    opacity: 1;
+
+}
+.movies-list-header span {
+    opacity:0;
+}
+.movies-list-header span:after {
+content: '>';
+}
+ .btn-right {
+    position: absolute;
+    z-index:10;
+}
+ .btn-left {
+    position:absolute;
+    z-index:10;
+    /* bottom: 30px;
+    left: 20px; */
+}
