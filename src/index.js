@@ -102,10 +102,11 @@ root.render(
     <Fragment>
        <Head />
        <Banner className="slider" title="slider" />
+       <div className='content-wrapper'>
        <SpecialList  className="special"  data={allDataMovies} title="ویژه" />
-    
       <NewList className="new-list" data={allDataMovies} title= "تازه های نماوا" />
       <NewSeries className="new-series" data={allDataMovies} title="سریال های به روز شده" />
+      </div>
     </Fragment>
     
    
