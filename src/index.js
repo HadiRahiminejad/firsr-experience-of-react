@@ -7,7 +7,7 @@ import  Head  from './components/layout/header/topMenu.js';
 import SpecialList from './components/specialMovis/specialList';
 import NewList from './components/newMovies/newList';
 import NewSeries from './components/newSeries/newSeries';
-
+import Banner from './components/banner/banner';
 const allDataMovies =[
  
         {
@@ -101,8 +101,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Fragment>
        <Head />
-    
+       <Banner className="slider" title="slider" />
        <SpecialList  className="special"  data={allDataMovies} title="ویژه" />
+    
       <NewList className="new-list" data={allDataMovies} title= "تازه های نماوا" />
       <NewSeries className="new-series" data={allDataMovies} title="سریال های به روز شده" />
     </Fragment>

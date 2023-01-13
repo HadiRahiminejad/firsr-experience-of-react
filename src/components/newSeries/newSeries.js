@@ -27,8 +27,8 @@ const scroll = (scrollOffset) => {
         </div>
        
        <div className='btn-right-left'>
-        <button className='btn-right' onClick={() => scroll(300)}>RIGHT</button>  
-        <button className='btn-left' onClick={() => scroll(-300)}>LEFT</button>
+        <button className='btn-right' onClick={() => scroll(300)}>RIGHT series</button>  
+        <button className='btn-left' onClick={() => scroll(-300)}>LEFT series</button>
         </div>
             <div className='series-list' ref={ref}>
             {renderFarm()}

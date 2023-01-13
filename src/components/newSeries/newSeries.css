@@ -4,7 +4,7 @@
     justify-content: space-between;
     gap: 10px;
     margin: 20px;
-    overflow-x: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     position: relative;
 }
@@ -29,14 +29,16 @@
 .movies-list-header span:after {
 content: '>';
 }
-.series-list .btn-right {
+.btn-right {
     position: absolute;
     z-index:10;
-    bottom: 20px;
+  
+    right: 0px;
+    bottom: -1348px;
 }
-.series-list .btn-left {
+ .btn-left {
     position:absolute;
     z-index:10;
-    bottom: 30px;
-    left: 20px;
+    bottom: -1348px;
+    left: 0px;
 }
