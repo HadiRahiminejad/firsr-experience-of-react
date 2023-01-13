@@ -31,14 +31,14 @@ content: '>';
 }
 .btn-right {
     position: absolute;
-    z-index:10;
+    z-index:1;
   
     right: 0px;
-    bottom: -1348px;
+    bottom: -1048px;
 }
  .btn-left {
     position:absolute;
-    z-index:10;
-    bottom: -1348px;
+    z-index:1;
+    bottom: -1048px;
     left: 0px;
 }

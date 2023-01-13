@@ -33,13 +33,13 @@ content: '>';
 }
  .btn-righ {
     position: absolute;
-    z-index:10;
+    z-index:1;
     right: 0;
-    bottom: -1000px;
+    bottom: -550px;
 }
  .btn-lef {
    position: absolute;
-    z-index:10;
-    bottom: -1000px;
+    z-index:1;
+    bottom: -550px;
     left: 0px;
 }
