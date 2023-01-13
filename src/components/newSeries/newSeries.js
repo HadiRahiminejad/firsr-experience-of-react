@@ -21,9 +21,9 @@ const scroll = (scrollOffset) => {
         <Fragment>
         <div className='wrapper' >
         <div className='movies-list-header'>
-            <h3>سریال های به روز شده
+        <h3> سریال های تازه   
+            <span> مشاهده همه </span>
             </h3>
-            <span>مشاهده همه </span>
         </div>
        
        <div className='btn-right-left'>

@@ -21,13 +21,14 @@ const scroll = (scrollOffset) => {
         <Fragment>
         <div className='wrapper' >
         <div className='movies-list-header'>
-            <h3>ویژه 
+            <h3> ویژه    
+            <span> مشاهده همه </span>
             </h3>
-            <span>مشاهده همه </span>
+           
         </div>
        <div className='btn-right-left'>
-        <button className='btn-rig' onClick={() => scroll(300)}>RIGHT s</button>  
-        <button className='btn-le' onClick={() => scroll(-300)}>LEFT s</button>
+        <button className='btn-rig' onClick={() => scroll(300)}>RIGHT movies</button>  
+        <button className='btn-le' onClick={() => scroll(-300)}>LEFT movies</button>
         </div>
             <div className='special-list' ref={ref}>
             {renderFarm()}

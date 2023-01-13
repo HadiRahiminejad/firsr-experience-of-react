@@ -8,6 +8,8 @@ body {
   direction: rtl;
   background: #000000;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 code {

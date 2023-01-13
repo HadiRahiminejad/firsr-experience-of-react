@@ -22,8 +22,9 @@ const scroll = (scrollOffset) => {
         <div className='wrapper' >
         <div className='movies-list-header'>
             <h3>تازه های نماوا 
-            </h3>
             <span>مشاهده همه </span>
+            </h3>
+         
         </div>
        
        <div className='btn-right-left'>
