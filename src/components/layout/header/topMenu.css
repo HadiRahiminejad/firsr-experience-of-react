@@ -3,7 +3,6 @@
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-    /* position: absolute; */
  }
  ul.ul li a{
     padding: 0;
@@ -13,16 +12,13 @@
     text-decoration: none;
     font-size: 16px;
   }
-  
 .header-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 15px;
-    /* max-width: 1200px; */
-    margin:0 20px 20px 20px;
+    margin:0 20px;
     color: aliceblue;
-    
 }
 ul.ul {
     padding: 5px;
@@ -41,7 +37,6 @@ div.ul-right{
    justify-content: flex-start;
     cursor: pointer;
     color: aliceblue;
-    
 }
 .ul-right li a:hover{ 
     color: #6eb8ff;
@@ -57,24 +52,14 @@ div.ul-right{
     align-items: center;
     gap: 10px;
     cursor: pointer;
-    
 } 
-
-
 .ul-left .btn-enter {
-    line-height: 36px;
-    padding-right: 10px;
     text-align: center;
     border-color: #ffffff;
     border: 1px solid;
-      border-top-color: currentcolor;
-      border-right-color: currentcolor;
-      border-bottom-color: currentcolor;
-      border-left-color: currentcolor;
-    line-height: 42px;
-    padding-left: 20px;
+    line-height: 35px;
     border-radius: 5px;
-    padding-right: 20px;
+    padding: 0 8px;
     cursor: pointer;
 }
 .ul-left .btn-enter:hover {

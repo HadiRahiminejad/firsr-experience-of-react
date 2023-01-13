@@ -98,10 +98,11 @@ const allDataMovies =[
 // };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
     <Fragment>
        <Head />
-       <Banner className="slider" title="slider" />
+       <Banner className="slider" title="slider" onChange={() => { return () => {}}} />
        <div className='content-wrapper'>
        <SpecialList  className="special"  data={allDataMovies} title="ویژه" />
       <NewList className="new-list" data={allDataMovies} title= "تازه های نماوا" />

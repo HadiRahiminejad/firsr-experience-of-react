@@ -13,41 +13,36 @@ export default function Banner() {
         {
         image: wednsday,
         title: "ونزدی",
-}, 
-{
-    image: anten,
-    title: "آنتن",
-
-}, 
-{
-    image: garcia,
-    title: "گارسیا!",
-
-}, 
-{
-    image: roozi,
-    title: "روزی روزگاری در مریخ",
-
-},
-{
-    image: s1923,
-    title: "1923",
-
-},
- {
-    image: s2521,
-    title: "بیست و پنج بیست و یک",
-
-},
-{
-    image: zanan,
-    title: "شبکه مخفی زنان",
-
-},
-];
+    }, 
+    {
+        image: anten,
+        title: "آنتن",
+    }, 
+    {
+        image: garcia,
+        title: "گارسیا!",
+    }, 
+    {
+        image: roozi,
+        title: "روزی روزگاری در مریخ",
+    },
+    {
+        image: s1923,
+        title: "1923",
+    },
+    {
+        image: s2521,
+        title: "بیست و پنج بیست و یک",
+    },
+    {
+        image: zanan,
+        title: "شبکه مخفی زنان",
+    },
+    ];
 
 
-    function renderFarm(){
+    
+        function renderFarm(){
         let i = Math.floor(Math.random()* 8);
         console.log(i)
         return (
@@ -68,15 +63,13 @@ export default function Banner() {
      </a>
      </div>
      </div>
-         )
-
-}
-function myTimeout(){
-     return  setTimeout(renderFarm, 1000)
-    }
-    myTimeout();
+         
+       ) }
+   function myInterval() {
+    return setInterval(renderFarm(), 5000)
+   }
     return (<Fragment>
-        {renderFarm()}
+      {renderFarm()}
         </Fragment>
     )
 }
